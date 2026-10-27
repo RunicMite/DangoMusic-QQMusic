@@ -1,0 +1,8 @@
+# 统一换行，避免 Windows 上提交把 LF 改成 CRLF
+* text=auto eol=lf
+
+# 二进制
+*.jar binary
+*.png binary
+*.jpg binary
+*.zip binary

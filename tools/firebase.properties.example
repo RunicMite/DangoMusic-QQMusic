@@ -1,0 +1,18 @@
+# ===== DangoMusic 一起听配置 =====
+# 放到 .minecraft/config/dangomusic/firebase.properties
+#
+# 所有人必须填【同一个项目】的 apiKey 与 databaseUrl，房间才互通。
+# 注意：这个文件别提交进 Git、别公开发布——apiKey 等于你数据库的钥匙。
+
+apiKey=在这里填你的 Web API Key
+databaseUrl=https://你的项目-default-rtdb.asia-southeast1.firebasedatabase.app
+
+# 中国大陆需要代理才能连 Google 的认证/数据库域名。
+# Clash / FlClash 默认 7890；V2Ray 常见 http 10809。
+# 用 TUN 模式或全局代理的话，把下面两行删掉。
+proxy=127.0.0.1:7890
+proxyType=http
+
+connectTimeout=10000
+readTimeout=20000
+pollMs=3000
